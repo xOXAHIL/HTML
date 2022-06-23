@@ -1,0 +1,50 @@
+/*flexbox-way of helping with layout*/
+/*grid
+justify content -direction of your text
+align items- oppposite direction to flex*/
+#navbar {
+    /*align-items: center;*/
+    /*flex-direction: column;
+    height:500px
+    width:30px*/
+    display: flex;
+    flex-direction: row;  
+    justify-content: space-between;
+}
+#RIOT-logo {
+    display: flex;
+    flex-direction: row;
+   
+}
+#profile-part {
+    display: flex;
+    flex-direction: row;
+    
+}
+#profile-picture {
+    height: 50%;
+    width: 35%;
+}
+#company-logo {
+    padding: 2px;
+    margin: 5px;
+    background-color: brown;
+}
+#company-name {
+    color:crimson;
+    align-items: center;
+}
+/*DOM TREE
+Viewport -Complete visible portion of screen
+vw,vh
+rem= used for fonts
+px(padding,margin),%,viewport(height/width) ,rem(fonts)*/
+/*@font-face {
+    font-family: ;
+    src: url();
+}
+@media (min-width:500px) { apply this width if only min-width of device screen is :500px
+   #navbar{
+       display: none;
+   } 
+}*/
